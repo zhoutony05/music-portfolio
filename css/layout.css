@@ -281,6 +281,58 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+/* ------------------------------------------------------------------ */
+/* d. Awards Section
+/* ------------------------------------------------------------------ */
+
+#awards {
+   background: #fff;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#awards, #awards a:visited  { color: #000000; }
+#awards a:hover, #awards a:focus { color: #313131; }
+
+#awards h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#awards h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#awards ul{
+   list-style-type:circle;
+}
+#awards h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#awards .header-col { padding-top: 9px; }
+#awards .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#awards .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#awards .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#awards .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
